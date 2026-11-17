@@ -16,7 +16,7 @@ A one-page Power BI dashboard that analyzes road accidents in Great Britain in 2
 
 KPI cards (casualties, accidents, and casualties by severity) with year-over-year change, casualties by vehicle type, a monthly comparison of the two years, urban vs. rural, light conditions and road type, plus slicers for weather conditions and road surface. "CY" (current year) is the latest year in the selection (2022) and "PY" (previous year) is 2021.
 
-![Dashboard](01_dashboard.png)
+![Dashboard](01_dashboard.jpg)
 
 The location map is a **static image** generated from the latitude and longitude columns (density of all 307,973 accidents, fatal accidents highlighted), so it does not react to the slicers.
 
