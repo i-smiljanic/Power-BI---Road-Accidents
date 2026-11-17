@@ -3,7 +3,7 @@
 A one-page Power BI dashboard that analyzes road accidents in Great Britain in 2021 and 2022: how many accidents and casualties there are, how they changed from 2021 to 2022, and which conditions (vehicle, area, light, road type) they happen in.
 
 **Tools:** Power BI · DAX · Power Query · Time intelligence (year to date, same period last year)
-**Data:** 307,973 accidents with 417,883 casualties, 1 Jan 2021 – 31 Dec 2022 (25 columns, one row per accident) – [TODO: add data source / link]
+**Data:** 307,973 accidents with 417,883 casualties, 1 Jan 2021 – 31 Dec 2022 (25 columns, one row per accident)
 
 ## Business questions
 
@@ -16,7 +16,7 @@ A one-page Power BI dashboard that analyzes road accidents in Great Britain in 2
 
 KPI cards (casualties, accidents, and casualties by severity) with year-over-year change, casualties by vehicle type, a monthly comparison of the two years, urban vs. rural, light conditions and road type, plus slicers for weather conditions and road surface. "CY" (current year) is the latest year in the selection (2022) and "PY" (previous year) is 2021.
 
-![Dashboard](images/01_dashboard.png)
+![Dashboard](01_dashboard.png)
 
 The location map is a **static image** generated from the latitude and longitude columns (density of all 307,973 accidents, fatal accidents highlighted), so it does not react to the slicers.
 
@@ -68,4 +68,4 @@ DIVIDE([CY Accidents Count] - [PY Accidents], [PY Accidents])
 
 ## How to open
 
-Download `Road Accidents.pbix` and open it in Power BI Desktop; the data is stored inside the report file. [TODO: the source Excel file is not included in this repository because of its size; add a link or a compressed copy.]
+Download `Road Accidents.pbix` and open it in Power BI Desktop; the data is stored inside the report file. The source Excel file is not included in this repository because of its size.
